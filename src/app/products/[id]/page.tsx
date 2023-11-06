@@ -5,7 +5,7 @@ import { cache } from "react";
 import Image from "next/image";
 import PriceTag from "@/components/PriceTag";
 import AddToCartButton from "./AddToCartButton";
-import { incrementProductQuantity } from "./actions";
+import { incrementProductQuantity } from "./actions"; 
 
 interface ProductPageProps {
     params: {
